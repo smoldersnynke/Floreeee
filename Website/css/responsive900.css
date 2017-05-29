@@ -1,0 +1,105 @@
+
+
+@media screen and (max-width: 900px) {
+
+
+
+#blauw{
+	width: 100%;
+	height: 70px;
+
+}
+
+
+.eerstedeel{
+	height: 1100px;
+}
+
+.algemeenmain{
+	width: 70%
+}
+
+
+
+
+#briomarvekaderindex{
+	width: 100%;
+}
+#briomarvekadersingles{
+	margin-top: 10px;
+	width: 100%;
+}
+#kneebreakerkaderindex{
+	width: 100%;
+}
+#kneebreakerkadersingles{
+	margin-top: 10px;
+	width: 100%;
+}
+#kneebreaker{
+	height: 800px;
+}
+#benkaderindex{
+	width: 100%;
+}
+#benkadersingles{
+	margin-top: 10px;
+	width: 100%;
+}
+#floutingunicornkaderindex{
+	width: 100%;
+}
+#floutingunicornkadersingles{
+	margin-top: 10px;
+	width: 100%;
+}
+
+
+#storekaderindex{
+margin-top: 60px;
+}
+.kleinekader{
+	width: 100%;
+}
+
+
+
+
+
+
+#eerstekaderrag{
+margin-top: 60px;
+}
+
+
+
+
+
+
+.werkers{
+	height: 1800px;
+}
+.personen{
+	width: 100%;
+float: left;
+	margin-left: auto;
+	margin-right: auto;
+
+	margin-top: 60px;
+}
+
+.bol{
+     height: 150px;
+     width: 150px;
+ }
+
+ .personen img{
+     height: 150px;
+     width: 150px;
+}
+
+
+
+
+
+}

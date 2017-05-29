@@ -1,0 +1,880 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+/*
+ groen ---	#8fd397
+ blauw ---	#223b5b
+ rood  ---	#f52839
+ grijs ---	#e7e5c6
+ paars --- 	#de19ad
+*/
+
+
+
+/* ---------------------ALGEMEEN DINGEN--------------------- */
+
+
+.algemeenmain{
+	width: 40%;
+
+	padding-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.grijs{
+	color: #e7e5c6;
+}
+.groen{
+	color: #8fd397;
+}
+
+.triangle{
+width: 0;
+height: 0;
+border: 0 solid transparent;
+border-right-width: 100px;
+border-left-width: 100px;
+border-bottom: 100px solid black;
+}
+/* ---------------------END OF ALGEMEEN DINGEN--------------------- */
+
+
+
+
+
+/* -------------------NAVIGATION----------------------- */
+#blauw{
+	width: 100%;
+	height: 40px;
+
+	background-color: #223b5b;
+	border-bottom: #f52839 solid 2px;
+
+	position: fixed;
+
+	z-index: 1000;
+}
+nav{
+	width: 60%;
+
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+a {
+
+	margin-right: 10px;
+	color: #1fdd7e;
+	position: relative;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	letter-spacing: 2px;
+	text-decoration: none;
+
+	width: 50%;
+	margin-left: ;
+}
+
+nav a:hover{
+	color: #f52839;
+}
+/* ---------------------END OF NAVIGATION--------------------- */
+
+
+
+
+
+/* ---------------------1st PAGE--------------------- */
+header{
+	width: 100%;
+	height: 1000px;
+
+	background-color: #8fd397;
+	background-image: url("images/background_index.jpg");
+
+	text-align: center;
+}
+
+
+.Centerer
+{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.Centered
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+/* ---------------------END OF 1st PAGE--------------------- */
+
+
+
+
+
+/* ---------------------2ND PAGE--------------------- */
+.eerstedeel{
+	width: 100%;
+	height: 1000px;
+
+	background-color: #223b5b;
+}
+
+#eerstekaderindex{
+	border: #8fd397 solid 1px ;
+
+	width: 44%;
+	float: left;
+}
+#eerstekaderindex h3{
+	font-size: 20pt;
+	padding: 10px 10px 0px 10px;
+
+		font-family: 'aloha';
+}
+#eerstekaderindex p{
+	font-size: ;
+	padding: 0px 10px 10px 10px;
+}
+
+#MOW{
+
+	width: 54%;
+
+	font-family: 'aloha';
+	font-weight: 100;
+	font-size: 30pt;
+	text-align: center;
+
+	float: right;
+
+}
+
+#tweedekaderindex{
+	border: #8fd397 solid 1px ;
+
+	width: 100%;
+	margin-top: 1%;
+	float: left;
+}
+#tweedekaderindex h4{
+	font-size: 20pt;
+	padding: 10px 10px 0px 10px;
+
+	font-family: 'aloha';
+}
+#tweedekaderindex p{
+	font-size: ;
+	padding: 0px 10px 10px 10px;
+}
+
+/* ---------------------END OF 2ND PAGE--------------------- */
+
+
+
+
+
+
+/* ---------------------3TH PAGE--------------------- */
+.tweededeel{
+	width: 100%;
+	height: 1000px;
+
+	background-color: #f52839;
+}
+
+#derdekaderindex{
+	border: #e7e5c6 solid 1px ;
+
+	width: 40%;
+		float: left;
+}
+#derdekaderindex h1{
+	font-size: 60pt;
+	font-family: 'aloha';
+	padding: 10px;
+	text-align: center;
+}
+
+#vierdekaderindex{
+	border: #e7e5c6 solid 1px ;
+
+	width: 58%;
+		float: right;
+}
+#vierdekaderindex p{
+	font-size: ;
+	padding: 10px;
+}
+/* ---------------------END OF 3TH PAGE--------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------TALENTS PAGES--------------------- */
+
+/* ---------------------BRIO MARVE--------------------- */
+
+#briomarve{
+	width: 100%;
+	height: 1000px;
+
+	background-color: #8fd397;
+}
+.fotobriomarve{
+	width: 20%;
+	height: 100%;
+
+	float: left;
+	background-color: black;
+}
+
+#briomarvekaderindex{
+	border: #f52839 solid 1px ;
+
+	width: 60%;
+	float: left;
+}
+#briomarvekaderindex h3{
+	font-size: 20pt;
+	padding: 10px 10px 0px 10px;
+	color: #f52839;
+		font-family: 'aloha';
+}
+#briomarvekaderindex p{
+	font-size: ;
+	padding: 0px 10px 10px 10px;
+
+	color: #f52839;
+}
+
+#briomarvekadersingles{
+	border: #f52839 solid 1px ;
+
+	width: 30%;
+	float: right;
+}
+#briomarvekadersingles h3{
+	font-size: 20pt;
+	padding: 10px 10px 0px 10px;
+	color: #f52839;
+		font-family: 'aloha';
+}
+#briomarvekadersingles p{
+	font-size: ;
+	padding: 0px 10px 10px 10px;
+
+	color: #f52839;
+}
+
+
+/* ---------------------kneebreaker--------------------- */
+
+#kneebreaker{
+	width: 100%;
+	height: 1000px;
+
+	background-color: #223b5b;
+}
+.fotokneebreaker{
+	background-color: black;
+	width: 20%;
+	height: 100%;
+
+	float: right;
+}
+
+#kneebreakerkaderindex{
+	border: #e7e5c6 solid 1px ;
+
+	width: 60%;
+	float: left;
+}
+#kneebreakerkaderindex h3{
+	font-size: 20pt;
+	padding: 10px 10px 0px 10px;
+	color: #e7e5c6;
+		font-family: 'aloha';
+}
+#kneebreakerkaderindex p{
+	font-size: ;
+	padding: 0px 10px 10px 10px;
+
+	color: #e7e5c6;
+}
+
+#kneebreakerkadersingles{
+	border: #e7e5c6 solid 1px ;
+
+	width: 30%;
+	float: right;
+}
+#kneebreakerkadersingles h3{
+	font-size: 20pt;
+	padding: 10px 10px 0px 10px;
+	color: #e7e5c6;
+		font-family: 'aloha';
+}
+#kneebreakerkadersingles p{
+	font-size: ;
+	padding: 0px 10px 10px 10px;
+
+	color: #e7e5c6;
+}
+
+/* ---------------------ben--------------------- */
+
+#ben{
+	width: 100%;
+	height: 1000px;
+
+	background-color: #e7e5c6;
+}
+.fotoben{
+	background-color: black;
+	width: 20%;
+	height: 100%;
+
+	float: left;
+}
+
+#benkaderindex{
+	border: #223b5b solid 1px ;
+
+	width: 60%;
+	float: left;
+}
+#benkaderindex h3{
+	font-size: 20pt;
+	padding: 10px 10px 0px 10px;
+	color: #223b5b;
+		font-family: 'aloha';
+}
+#benkaderindex p{
+	font-size: ;
+	padding: 0px 10px 10px 10px;
+
+	color: #223b5b;
+}
+
+#benkadersingles{
+	border: #223b5b solid 1px ;
+
+	width: 30%;
+	float: right;
+}
+#benkadersingles h3{
+	font-size: 20pt;
+	padding: 10px 10px 0px 10px;
+	color: #223b5b;
+		font-family: 'aloha';
+}
+#benkadersingles p{
+	font-size: ;
+	padding: 0px 10px 10px 10px;
+
+	color: #223b5b;
+}
+
+
+/* ---------------------flouting unicorn--------------------- */
+
+#floutingunicorn{
+	width: 100%;
+	height: 1000px;
+
+	background-color: #f52839;
+}
+.fotofloutingunicorn{
+	background-color: black;
+	width: 20%;
+	height: 100%;
+
+	float: right;
+}
+
+#floutingunicornkaderindex{
+	border: #8fd397 solid 1px ;
+
+	width: 60%;
+	float: left;
+}
+#floutingunicornkaderindex h3{
+	font-size: 20pt;
+	padding: 10px 10px 0px 10px;
+	color: #8fd397;
+		font-family: 'aloha';
+}
+#floutingunicornkaderindex p{
+	font-size: ;
+	padding: 0px 10px 10px 10px;
+
+	color: #8fd397;
+}
+
+#floutingunicornkadersingles{
+	border: #8fd397 solid 1px ;
+
+	width: 30%;
+	float: right;
+}
+#floutingunicornkadersingles h3{
+	font-size: 20pt;
+	padding: 10px 10px 0px 10px;
+	color: #8fd397;
+		font-family: 'aloha';
+}
+#floutingunicornkadersingles p{
+	font-size: ;
+	padding: 0px 10px 10px 10px;
+
+	color: #8fd397;
+}
+
+
+
+.home-mast a{
+
+  margin: 0px;
+
+}
+
+/* ---------------------TALENTS PAGES--------------------- */
+
+
+
+
+/* ---------------------STORE--------------------- */
+
+.store{
+	width: 100%;
+	height: 1000px;
+
+
+
+	background-color: #e7e5c6;
+}
+
+#storekaderindex{
+	border: #de19ad solid 1px ;
+
+	width: 100%;
+
+	margin-left: auto;
+margin-right: auto;
+}
+#storekaderindex h3{
+	font-size: 20pt;
+	color: #de19ad;
+	padding: 10px;
+font-family: 'aloha';
+
+	text-align: center;
+}
+
+#storekaderindex p{
+	font-size: ;
+	color: #de19ad;
+	padding: 10px;
+}
+
+#afbeeldingstore{
+	width: 20%;
+	height: 100%;
+
+	background-color: black;
+	float: right;
+}
+
+.doosjes{
+	width: 100%;
+	height: 100px;
+
+	margin: 10px;
+	margin-top: 20px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	text-align: center;
+
+	border: #de19ad solid 1px ;
+}
+.doosjes img{
+	position: relative;
+}
+.doosjes p{
+	position: absolute;
+	z-index: 10;
+
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------END OF STORE--------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------RAG--------------------- */
+
+.rag{
+	width: 100%;
+	height: 1000px;
+
+	background-color: #8fd397;
+
+}
+
+
+#eerstekaderrag{
+	border: #f52839 solid 1px;
+
+	width: 40%;
+	float: left;
+}
+#eerstekaderrag h3{
+	padding: 10px;
+	font-family: 'aloha';
+	font-size: 20pt;
+	color: #f52839;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+
+#tweedekaderrag{
+	border: #f52839 solid 1px;
+
+	width: 58%;
+	float: right;
+}
+#tweedekaderrag h3{
+	padding: 10px;
+	font-family: 'aloha';
+	font-size: 20pt;
+	color: #f52839;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+#tweedekaderrag p{
+	color: #f52839;
+	padding: 10px;
+}
+
+
+#derdekaderrag{
+	border: #f52839 solid 1px;
+	width: 40%;
+	margin-top: 10px;
+	float: left;
+}
+#derdekaderrag h3{
+	padding: 10px;
+	font-family: 'aloha';
+	font-size: 19pt;
+	color: #f52839;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+#derdekaderrag p{
+	color: #f52839;
+	padding: 10px;
+}
+
+
+#vierdekaderrag{
+	border: #f52839 solid 1px;
+
+	width: 30%;
+	float: left;
+	margin: 12px;
+}
+#vierdekaderrag h3{
+	padding: 10px;
+	font-family: 'aloha';
+	font-size: 19pt;
+	color: #f52839;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+#vierdekaderrag p{
+	color: #f52839;
+	padding: 10px;
+}
+
+
+/* ---------------------lineup--------------------- */
+.lineup p{
+	font-size: 24pt;
+	font-family: 'aloha';
+	font-weight: bold;
+}
+
+/* ---------------------END OF lineup--------------------- */
+
+
+
+/* ---------------------END OF RAG--------------------- */
+
+
+
+
+
+
+
+
+.videocontent{
+	background-color: black;
+
+	width: 100%;
+	height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------CONTACT--------------------- */
+.werkers{
+	width: 100%;
+	height: 1000px;
+
+	background-color: #8fd397;
+}
+.algemeenmainwerkers{
+	width: 80%;
+
+	padding-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.personen{
+	width: 20%;
+
+	margin: 30px;
+	float: left;
+}
+.personen h1{
+	font-size: 20pt;
+	text-align: center;
+	padding-top: 20px;
+	color: #f52839;
+}
+.personen h2{
+	font-size: 14pt;
+	text-align: center;
+	padding-top: 20px;
+}
+.personen p{
+	font-size: 12pt;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.personen img{
+	border-radius: 50%;
+     height: 250px;
+     width: 250px;
+     background-color: white;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* ------------------------------------------ */
+
+
+.headquarters{
+	width: 100%;
+	height: 1000px;
+
+	background-color: #223b5b;
+}
+
+.grotekader{
+	border: #8fd397 solid 1px;
+	width: 100%;
+
+	margin-bottom: 10px;
+}
+
+.eerstekaderhq{
+	border: #8fd397 solid 1px;
+	width: 35%;
+
+	float: left;
+}
+.eerstekaderhq h3{
+	padding: 10px;
+	font-size: 20pt;
+	color: #8fd397;
+	text-transform: uppercase;
+	font-family: 'aloha';
+}
+
+.eerstekaderhq p{
+	padding: 10px;
+	font-size: 16pt;
+	color: #8fd397;
+}
+
+.tweedekaderhq{
+	border: #8fd397 solid 1px;
+	width: 20%;
+
+	margin-left: 10px;
+	float: left;
+}
+.tweedekaderhq p{
+	text-align: center;
+	padding: 10px;
+	color: #8fd397;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+.formulier{
+	width: 100%;
+	height: 1000px;
+
+	background-color: #f52839;
+}
+
+.eerstekaderformulier{
+	border: #223b5b solid 1px;
+	width: 100%;
+}
+.eerstekaderformulier p{
+	font-size: 24px;
+	font-weight: bold;
+
+			font-family: 'aloha';
+
+
+	text-align: center;
+	text-transform: uppercase;
+	color: #223b5b;
+
+	padding: 10px;
+}
+
+.tweedekaderformulier{
+	width: 70%;
+		margin-left: auto;
+	margin-right: auto;
+	border: none;
+}
+.tweedekaderformulier #naam{
+	float: left;
+	width: 40%;
+	height: 60px;
+	
+	margin-top: 20px;
+
+	border: none;
+	background-color: #223b5b;
+
+-webkit-box-shadow: inset 0px 0px 104px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 104px 2px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 104px 2px rgba(0,0,0,0.75);
+}
+.tweedekaderformulier #emailadres{
+	float: right;
+	width: 40%;
+	height: 60px;
+
+	margin-top: 20px;
+
+	border: none;
+	background-color: #223b5b;
+
+-webkit-box-shadow: inset 0px 0px 104px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 104px 2px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 104px 2px rgba(0,0,0,0.75);
+}
+.tweedekaderformulier #info{
+	float: left;
+	margin-top: 20px;
+
+	width: 100%;
+	height: 150px;
+
+	border: none;
+	background-color: #223b5b;
+
+-webkit-box-shadow: inset 0px 0px 104px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 104px 2px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 104px 2px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+
+/* ------------------------------------------ */
+
+.bol{border-radius: 50%;
+     height: 250px;
+     width: 250px;
+     background-color: white;
+	
+	margin-left: auto;
+	margin-right: auto;
+ }
+.streep{width: 1px;
+        height: 300px;
+        background-color: white;
+        float:left;
+        margin-top: 10%;}
+/* ---------------------END OF CONTACT--------------------- */
+
+
+

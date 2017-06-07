@@ -1,16 +1,26 @@
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1780px) {
 
-header{
-	height: 720px;
-}
+	.Centerer
+	{
+
+		  display: inline-block;
+			width:50%;
+			height:42%;
+			padding-right:300px;
+
+
+	}
 .tweededeel{
-	height: 720px;
+	height: 1000px;
+}
+.algemeenmain{
+      padding-top:250px;
 }
 
 #eerstekaderindex{
-	width: 100%;	
+	width: 100%;
 }
 #MOW{
 	width: 100%;
@@ -93,14 +103,7 @@ header{
 .streep{
 	display: none;
 }
-.bol{
-     height: 150px;
-     width: 150px;
- }
- .personen img{
-     height: 150px;
-     width: 150px;
-}
+
 
 
 

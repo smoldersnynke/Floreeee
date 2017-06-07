@@ -50,7 +50,7 @@ border-bottom: 100px solid black;
 /* -------------------NAVIGATION----------------------- */
 #blauw{
 	width: 100%;
-	height: 40px;
+	height: 60px;
 
 	background-color: #223b5b;
 	border-bottom: #f52839 solid 2px;
@@ -60,27 +60,28 @@ border-bottom: 100px solid black;
 	z-index: 1000;
 }
 nav{
-	width: 60%;
 
-	padding-top: 10px;
-	margin-left: auto;
-	margin-right: auto;
+      float:right;
+	    padding-top: 25px;
+      margin-right:40px;
 
 }
 a {
 
-	margin-right: 10px;
 	color: #1fdd7e;
-	position: relative;
-
+  margin-right:40px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
 	letter-spacing: 2px;
 	text-decoration: none;
 
-	width: 50%;
-	margin-left: ;
 }
+
+.menu{
+      clear:right;
+      margin-left:20px;
+}
+
 
 nav a:hover{
 	color: #f52839;
@@ -97,7 +98,7 @@ header{
 	height: 1000px;
 
 	background-color: #8fd397;
-	background-image: url("images/background_index.jpg");
+
 
 	text-align: center;
 }
@@ -105,15 +106,15 @@ header{
 
 .Centerer
 {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+
+	  display: inline-block;
+		width:50%;
+		height:42%;
+		margin-left:300px;
+
+
 }
-.Centered
-{
-    display: inline-block;
-    vertical-align: middle;
-}
+
 /* ---------------------END OF 1st PAGE--------------------- */
 
 
@@ -121,11 +122,16 @@ header{
 
 
 /* ---------------------2ND PAGE--------------------- */
+
+
 .eerstedeel{
 	width: 100%;
 	height: 1000px;
 
 	background-color: #223b5b;
+}
+.algemeenmain{
+      padding-top:300px;
 }
 
 #eerstekaderindex{
@@ -194,7 +200,7 @@ header{
 #derdekaderindex{
 	border: #e7e5c6 solid 1px ;
 
-	width: 40%;
+	width: 49%;
 		float: left;
 }
 #derdekaderindex h1{
@@ -206,8 +212,8 @@ header{
 
 #vierdekaderindex{
 	border: #e7e5c6 solid 1px ;
-
-	width: 58%;
+margin-top: 58px;
+	width: 49%;
 		float: right;
 }
 #vierdekaderindex p{
@@ -690,11 +696,45 @@ font-family: 'aloha';
 }
 
 .personen{
-	width: 20%;
 
 	margin: 30px;
 	float: left;
 }
+.bol4{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background-size: 100%;
+	background-image: url("https://scontent-bru2-1.xx.fbcdn.net/v/t31.0-8/18700421_2145925955663191_8958615847727279865_o.jpg?oh=d2e119da1850d3fb2e26ee4183b17d71&oe=59D916BA") ;
+}
+
+.bol3{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background-size: 100%;
+	background-image: url("https://scontent-bru2-1.xx.fbcdn.net/v/t31.0-8/18766686_2145920558997064_6685775923860742253_o.jpg?oh=d2a78cb91caca6bcfe8d0f1689fb7976&oe=59A40ABE") ;
+}
+
+
+.bol2{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background-size: 150%;
+	background-position: center 100%;
+	background-image: url("https://scontent-bru2-1.xx.fbcdn.net/v/t31.0-8/18672856_2145922558996864_4829546882072155178_o.jpg?oh=711eeb698cb267287ebbaa8cb501150e&oe=59DF1AA6") ;
+}
+
+.bol1{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background-size: 90%;
+	background-position: center ;
+	background-image: url("https://scontent-bru2-1.xx.fbcdn.net/v/t31.0-8/18699566_2145929252329528_8283859197651769170_o.jpg?oh=035e9d1b742b947b2567b6c5b2707c04&oe=59D8DFA8") ;
+}
+
 .personen h1{
 	font-size: 20pt;
 	text-align: center;
@@ -717,7 +757,7 @@ font-family: 'aloha';
      height: 250px;
      width: 250px;
      background-color: white;
-	
+
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -815,7 +855,7 @@ font-family: 'aloha';
 	float: left;
 	width: 40%;
 	height: 60px;
-	
+
 	margin-top: 20px;
 
 	border: none;
@@ -865,7 +905,7 @@ box-shadow: inset 0px 0px 104px 2px rgba(0,0,0,0.75);
      height: 250px;
      width: 250px;
      background-color: white;
-	
+
 	margin-left: auto;
 	margin-right: auto;
  }
@@ -875,6 +915,3 @@ box-shadow: inset 0px 0px 104px 2px rgba(0,0,0,0.75);
         float:left;
         margin-top: 10%;}
 /* ---------------------END OF CONTACT--------------------- */
-
-
-

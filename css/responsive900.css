@@ -12,10 +12,15 @@
 
 
 .eerstedeel{
-	height: 1100px;
+	height: 900px;
+}
+
+.tweededeel{
+	height: 900px;
 }
 
 .algemeenmain{
+	padding-top:200px;
 	width: 70%
 }
 
